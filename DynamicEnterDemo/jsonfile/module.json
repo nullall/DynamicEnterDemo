@@ -1,0 +1,130 @@
+{
+  "founctions" : [
+    {
+      "badge" : 111,
+      "className" : "M1ViewController",
+      "iconUrl" : "http://127.0.0.1/appicon/home_apply@1x.png",
+      "title" : "模块1",
+      "iconHeight" : 35,
+      "value" : "",
+      "iconWidth" : 31,
+      "iconPressedUrl" : ""
+    },
+    {
+      "badge" : 5,
+      "className" : "M2ViewController",
+      "iconUrl" : "http://127.0.0.1/appicon/home_apply@2x.png",
+      "title" : "模块2",
+      "iconHeight" : 20,
+      "value" : "",
+      "iconWidth" : 20,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M3ViewController",
+      "title" : "模块3",
+      "iconUrl" : "http://127.0.0.1/appicon/home_apply@3x.png",
+      "badge" : 15,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M4ViewController",
+      "title" : "模块4",
+      "iconUrl" : "http://127.0.0.1/appicon/home_approve@1x.png",
+      "badge" : 99,
+      "iconPressedUrl" : ""
+    },
+    {
+      "className" : "M5ViewController",
+      "iconUrl" : "http://127.0.0.1/appicon/home_approve@2x.png",
+      "title" : "模块5",
+      "iconHeight" : 25,
+      "value" : "",
+      "iconWidth" : 25,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M6ViewController",
+      "title" : "模块6",
+      "iconUrl" : "http://127.0.0.1/appicon/home_approve@3x.png",
+      "badge" : 10,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M7ViewController",
+      "title" : "模块7",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "badge" : 0,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M8ViewController",
+      "title" : "模块8",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "badge" : 0,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M9ViewController",
+      "title" : "模块9",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "badge" : 0,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M10ViewController",
+      "title" : "模块10",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "badge" : 10,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M11ViewController",
+      "title" : "模块11",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M12ViewController",
+      "title" : "模块12",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi3.png",
+      "badge" : 99,
+      "iconPressedUrl" : ""
+    },
+    {
+      "value" : "",
+      "className" : "M13ViewController",
+      "title" : "模块13",
+      "iconUrl" : "http://127.0.0.1/appicon/renshi.png",
+      "badge" : 0,
+      "iconPressedUrl" : ""
+    }
+  ],
+  "themeColors" : "AB1235",
+  "banners" : [
+    {
+      "url" : "http://127.0.0.1/banner/ad01.jpg"
+    },
+    {
+      "url" : "http://127.0.0.1/banner/ad02.jpg"
+    },
+    {
+      "url" : "http://127.0.0.1/banner/ad03.jpg"
+    },
+    {
+      "url" : "http://127.0.0.1/banner/ad04.jpg"
+    },
+    {
+      "url" : "http://127.0.0.1/banner/ad05.jpg"
+    }
+  ]
+}

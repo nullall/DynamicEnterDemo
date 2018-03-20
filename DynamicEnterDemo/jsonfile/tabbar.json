@@ -1,0 +1,29 @@
+{
+  "themeColor" : "0a68ff",
+  "tabbar" : [
+    {
+      "iconSelectedUrl" : "http://127.0.0.1/tabbar/shouyes.png",
+      "className" : "MainViewController",
+      "title" : "主页1",
+      "textSelectedColor" : "2d3c54",
+      "iconUrl" : "http://127.0.0.1/tabbar/shouye.png",
+      "textNormalColor" : "929292"
+    },
+    {
+      "iconSelectedUrl" : "http://127.0.0.1/tabbar/gonggaos.png",
+      "className" : "Main2ViewController",
+      "title" : "主页2",
+      "textSelectedColor" : "2d3c54",
+      "iconUrl" : "http://127.0.0.1/tabbar/gonggao.png",
+      "textNormalColor" : "929292"
+    },
+    {
+      "iconSelectedUrl" : "http://127.0.0.1/tabbar/gerens.png",
+      "className" : "Main3ViewController",
+      "title" : "主页3",
+      "textSelectedColor" : "2d3c54",
+      "iconUrl" : "http://127.0.0.1/tabbar/geren.png",
+      "textNormalColor" : "929292"
+    }
+  ]
+}
