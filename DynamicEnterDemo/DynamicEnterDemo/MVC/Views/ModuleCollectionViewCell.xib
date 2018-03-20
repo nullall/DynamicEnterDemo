@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ModuleCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="101"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="编码" translatesAutoresizingMaskIntoConstraints="NO" id="9Fx-Rb-69k">
+                        <rect key="frame" x="29" y="20.5" width="40" height="40"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="模块名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmd-7D-Zbr">
+                        <rect key="frame" x="0.0" y="73" width="98" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.48627450979999998" green="0.48627450979999998" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoV-TQ-TGc">
+                        <rect key="frame" x="56" y="20" width="13" height="13"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Mk5-9L-mnt"/>
+                            <constraint firstAttribute="width" constant="13" id="x6c-ke-mLM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="6.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="9Fx-Rb-69k" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ElH-7S-sAW"/>
+                <constraint firstAttribute="trailing" secondItem="wmd-7D-Zbr" secondAttribute="trailing" id="Kfc-7K-P6G"/>
+                <constraint firstItem="XoV-TQ-TGc" firstAttribute="top" secondItem="9Fx-Rb-69k" secondAttribute="top" id="PgE-bL-Axn"/>
+                <constraint firstItem="wmd-7D-Zbr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ppb-fQ-naV"/>
+                <constraint firstItem="9Fx-Rb-69k" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-10" id="RYJ-e8-Ekj"/>
+                <constraint firstItem="XoV-TQ-TGc" firstAttribute="trailing" secondItem="9Fx-Rb-69k" secondAttribute="trailing" id="aPY-Tp-wdE"/>
+                <constraint firstAttribute="bottom" secondItem="wmd-7D-Zbr" secondAttribute="bottom" constant="10" id="teZ-Wb-FGU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="98" height="101"/>
+            <connections>
+                <outlet property="badgeLabel" destination="XoV-TQ-TGc" id="wXU-tC-I0o"/>
+                <outlet property="iconImv" destination="9Fx-Rb-69k" id="laU-yV-oEc"/>
+                <outlet property="titleLabel" destination="wmd-7D-Zbr" id="xAG-st-cQY"/>
+            </connections>
+            <point key="canvasLocation" x="-59" y="-62.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="编码" width="40" height="40"/>
+    </resources>
+</document>
